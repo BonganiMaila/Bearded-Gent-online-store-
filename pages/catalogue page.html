@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Catalogue page</title>
+    <!--Link CSS with HTML-->
+    <link rel="stylesheet" type="text/css" href="../css/catalogue page.css">
+    <!--Linking Bootstrap with HTML-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!--Navigation link-->
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="../images/bearded logo.png" width="50" height="50" class="d-inline-block align-top"
+                alt="beard icon">
+            <em><strong>Bearded Gent</strong> </em>
+        </a>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" href="../index.html">Home</a>
+            </li>
+            <li class="dropdown">
+                <button class="dropbtn">Catalogue</button>
+                <div class="dropdown-content">
+                    <a class="nav-link" href="../pages/beard gallary.html">Beard Gallery</a>
+                    <a class="nav-link" href="../pages/catalogu.html">Products</a>
+                    <a class="nav-link" href="../pages/terms.html">Terms & Conditions</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../pages/about us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../pages/contact us.html">Contact Us</a>
+            </li>
+            </div>
+        </ul>
+        <!--The button group used to display the cart and clear the cart-->
+        <div class="row btn-group">
+            <div class="col">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">Cart (<span
+                        class="total-count"></span>)</button><button class="clear-cart btn btn-primary">Clear
+                    Cart</button></div>
+        </div>
+        </div>
+    </nav>
+
+    <!--Make a catalogue with the products you are selling-->
+    <div class="sale">
+        <p>Free Shipping on ALL orders over R350 to anywhere in South Africa!
+
+        </p>
+    </div>
+
+    <!--Container of the site-->
+    <div class="container-fluid">
+        <!--Our products header-->
+        <h3><strong>YOUR BEARD NEEDS IT, GROOM IT.. GENT!</strong></h3>
+        <p class="view">View our collection of premium handcrafted Beard Oils and other Beard Accessories. <br> With
+            exotic scents and quality you can feel...100% Natural 100% Organic </p>
+
+        <!--Quick Add to cart button with clear cart button-->
+
+        <div class="album py-5 bg-light">
+            <div class="container">
+                <h2 class="oil">Beard oil never lies.</h2>
+
+
+                <div class="row">
+                    <div class="col">
+                        <div class="card ">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img class="card-img-top" src="../images/natural organic beard oil.jpg"
+                                            style="width:300px;height:200px">
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <h5> 100% Natural Organic Beard Oil
+                                        </h5> <br>
+                                        <a href="../pages/beard oil.html" class="btn btn-sm btn-outline-secondary"
+                                            role="button" aria-pressed="true">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                                dy=".3em" id="productName"><strong><em> 100% Natural Organic Beard
+                                        Oil</em></strong></text></svg> <br>
+
+                            <div class="card-body">
+                                <p class="card-text" id="productPrice">
+                                    <details>
+                                        <summary>More details.</summary>
+                                        <p> - Natural 100% Organic Beard Oil.</p>
+                                        <p>Nourish, moisturize your beard
+                                            Promotes beard growth and make it more thicker and stronger
+                                            Can make stray beard to minimize, gloss run feeling not greasy
+                                            Portable size, easy to carry.
+                                            Type: Beard Oil
+                                            Capacity: 30ml. <br> R170
+                                        </p>
+                                    </details>
+                                    <strong style="font-size:25px;">R170</strong>
+
+                                </p> <br>
+                                <!--</p>-->
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <!--This button is used to add items-->
+                                        <a href="#" data-name="Natural organic" data-price="170"
+                                            class="add-to-cart btn btn-primary">Add to
+                                            cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col">
+                        <div class="card ">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img class="card-img-top" src="../images/fresh wood beard oil.jpg"
+                                            style="width:300px;height:200px">
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <h5>The Gentleman's Beard Oil - Fresh Wood
+                                        </h5> <br>
+                                        <a href="../pages/beard oil.html" class="btn btn-sm btn-outline-secondary"
+                                            role="button" aria-pressed="true">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                                dy=".3em" id="productName"><strong><em> The Gentleman's Beard Oil - Fresh
+                                        Wood</em></strong></text></svg> <br>
+
+                            <div class="card-body">
+                                <p class="card-text" id="productPrice">
+                                    <details>
+                                        <summary>More details.</summary>
+                                        <p> - The Gentleman's Beard Oil - Fresh Wood.</p>
+                                        <p>The Moroccon Argan Oil is a premium oil known for its amazing benefits to
+                                            promote healthy beard hair whilst nourishing follicles from root to tip.
+                                            Grapeseed and Jojoba Oil also have principle benefits of strengthening beard
+                                            hair so they won't break off or appear brittle.
+                                            After all, you'd want your beard to look healthy, full and masculine which
+                                            is what this product assists with.
+
+                                            This vintage beard oil is designed to be lightweight and residue free and
+                                            won't grease your beard.
+                                            Used to maintain healthy underlying skin and preferred by women who love
+                                            this scent on their gentleman!
+
+                                            Ingredients:
+                                            Pure Moroccan Argan Oil, Grapeseed and Jojoba oil and a signature blend of
+                                            essential oils handpicked from around the world.
+
+                                            1 fl oz/ 30ml flask
+                                        </p>
+                                    </details>
+                                    <strong style="font-size:25px;">R189</strong>
+                                </p><br>
+                                <!--</p>-->
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <!--This button is used to add items-->
+                                        <a href="#" data-name="Fresh wood" data-price="189"
+                                            class="add-to-cart btn btn-primary">Add to
+                                            cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col">
+                        <div class="card ">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img class="card-img-top" src="../images/beard mob.jpg"
+                                            style="width:300px;height:200px">
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <h5>BEARD MOB Beard Oil - Cococitrus</h5> <br>
+                                        <a href="../pages/beard oil.html" class="btn btn-sm btn-outline-secondary"
+                                            role="button" aria-pressed="true">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                                dy=".3em" id="productName"><strong><em> BEARD MOB Beard Oil -
+                                        Cococitrus</em></strong></text></svg> <br>
+
+                            <div class="card-body">
+                                <p class="card-text" id="productPrice">
+                                    <details>
+                                        <summary>More details.</summary>
+                                        <p> - BEARD MOB Beard Oil - Cococitrus.</p>
+                                        <p>Features:
+                                            - BEARD MOB beard oil is all natural, non-greasy and carefully handcrafted
+                                            to keep your beard conditioned and shiny.
+                                            - We use the finest oils to nourish and moisturise both your skin and beard.
+                                            - Our lightweight formula leaves your beard feeling soft and won’t leave an
+                                            oily residue.
+                                            - Our distinct range of premium essential oils, coupled with our carrier oil
+                                            blend, delivers unique & well-rounded scents.
+                                            - Think of it as a mild cologne, but one that doubles up as a hair and skin
+                                            moisturiser.
+                                            - While we do not advocate shaving, our beard oil can be used both before
+                                            and after shaving to help alleviate skin irritation.
+                                            - Cococitrus is a blend of coconut oil and premium sweet orange essential
+                                            oil delivering our signature scent.
+                                            - The cococitrus blend is sweet, zesty and has an alluring fragrance.
+
+                                            Sweet orange essential oil:
+                                            - Relieves dermatitis and acne
+                                            - Provides relief from inflammation
+
+                                            Coconut oil:
+                                            - Heals dry skin
+                                            - Rehydrates skin.
+                                        </p>
+                                    </details>
+                                    <strong style="font-size:25px;">R215</strong>
+
+                                </p> <br>
+                                <!--</p>-->
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <!--This button is used to add items-->
+                                        <a href="#" data-name="MOB Beard Oil" data-price="215"
+                                            class="add-to-cart btn btn-primary">Add to
+                                            cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Insert another set of 3 rows-->
+
+                    <div class="col">
+                        <div class="card ">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img class="card-img-top" src="../images/beard growth oil.jpg"
+                                            style="width:300px;height:200px">
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <h5>The Captain's Beard 30ml Beard Growth Oil
+                                        </h5> <br>
+                                        <a href="../pages/beard oil.html" class="btn btn-sm btn-outline-secondary"
+                                            role="button" aria-pressed="true">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                                dy=".3em" id="productName"><strong><em> The Captain's Beard 30ml Beard Growth
+                                        Oil</em></strong></text></svg> <br>
+
+                            <div class="card-body">
+                                <p class="card-text" id="productPrice">
+                                    <details>
+                                        <summary>More details.</summary>
+                                        <p> - The Captain's Beard 30ml Beard Growth Oil</p>
+                                        <p>The Captain's Beard
+
+                                            Beard Growth Oil is a formidable formula for the formidable man:
+                                            - Thicker beard grown faster
+                                            - Prevents beard itch
+                                            - Increases beard shine
+                                            - Feeds the skin for maximum beard growth. <br> Price: R 315
+                                        </p>
+                                    </details>
+                                    <strong style="font-size:25px;">R315</strong>
+                                </p> <br>
+                                <!--</p>-->
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <!--This button is used to add items-->
+                                        <a href="#" data-name="Captain's Beard" data-price="315"
+                                            class="add-to-cart btn btn-primary">Add to
+                                            cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="col">
+                        <div class="card ">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img class="card-img-top" src="../images/Beard_Oil_WoodedEarth.png"
+                                            style="width:300px;height:200px">
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <h5>Burly Inc.'s Wooded Earth Beard Oil
+                                        </h5> <br>
+                                        <a href="../pages/beard oil.html" class="btn btn-sm btn-outline-secondary"
+                                            role="button" aria-pressed="true">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                                dy=".3em" id="productName"><strong><em> Burly Inc.'s Wooded Earth Beard
+                                        Oil</em></strong></text></svg> <br>
+
+                            <div class="card-body">
+                                <p class="card-text" id="productPrice">
+                                    <details>
+                                        <summary>More details.</summary>
+                                        <p> - Burly Inc.'s Wooded Earth Beard Oil</p>
+                                        <p>This organic beard oil brings out the best in your beard with conditioning
+                                            oils to soften and boost your beard. The added Vitamin E is a natural
+                                            antioxidant that repairs hair follicles to encourage growth.
+
+                                            Features:
+                                            - Added Vitamin E to boost hair growth and moisturise the skin undernath
+                                            - Moisturises and repairs damaged hair
+                                            - Softens the beard and skin
+                                            - Prevents hair breakage while promoting growth
+                                            - Perfect as a pre-shave oil to prevent razor burn. Apply a thin layer
+                                            before you apply your shaving foam, gel or cream
+
+                                            Size Specifications:
+                                            30ml <br> Price: R 180</p>
+                                    </details>
+                                    <strong style="font-size:25px;">R180</strong>
+                                </p><br>
+                                <!--</p>-->
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <!--Button used to add an item-->
+                                        <a href="#" data-name=" Wooded Earth" data-price="180"
+                                            class="add-to-cart btn btn-primary">Add to
+                                            cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="col">
+                        <div class="card ">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img class="card-img-top" src="../images/long beard and skin oil.jpg"
+                                            style="width:300px;height:200px">
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <h5>Loreal Men Expert Barber Club Long Beard & Skin Oil
+                                        </h5> <br>
+                                        <a href="../pages/beard oil.html" class="btn btn-sm btn-outline-secondary"
+                                            role="button" aria-pressed="true">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                                dy=".3em" id="productName"><strong><em> Loreal Men Expert Barber Club Long Beard & Skin
+                                        Oil</em></strong></text></svg> <br>
+
+                            <div class="card-body">
+                                <p class="card-text" id="productPrice">
+                                    <details>
+                                        <summary>More details.</summary>
+                                        <p> - Loreal Men Expert Barber Club Long Beard & Skin Oil</p>
+                                        <p>Loreal Men Expert Barber Club Long Beard & Skin Oil - 30ml.
+
+                                            Finally, daily protective care for your long beard that soothes itchiness
+                                            and nourishes your skin beneath. Discover Barber Club Long Beard & Skin Oil
+                                            from L'Oreal, a facial hair care rich in natural essential oils that tames
+                                            and condition your beard without leaving it feeling greasy.
+
+                                            Benefits:
+                                            - 100% crafted for men with beards and facial hair
+                                            - No silicone, parabens, or colorants, and made without any ingredients
+                                            derived from animals
+                                            - Tames, conditions, and strengthens facial hair without leaving your beard
+                                            or skin feeling greasy
+                                            - Gentle formula soothes itchiness and discomfort. <br> Price: R 149</p>
+                                    </details>
+                                    <strong style="font-size:25px;">R170</strong>
+                                </p><br>
+                                <!--</p>-->
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <!--Create a link button to the next page to view item-->
+                                        <a href="#" data-name="Loreal Men" data-price="149"
+                                            class="add-to-cart btn btn-primary">Add to
+                                            cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <!--Insert another set of rows with different items -->
+            <h2 class="oil">Other beard accessories </h2>
+
+            <div class="row">
+                <div class="col">
+                    <div class="card ">
+                        <div class="flip-box">
+                            <div class="flip-box-inner">
+                                <div class="flip-box-front">
+                                    <img class="card-img-top" src="../images/beard comb.jpg"
+                                        style="width:300px;height:200px">
+                                </div>
+                                <div class="flip-box-back">
+                                    <h5>The Grizzly Beard Co - Stainless Steel Beard Shaping Tool
+                                    </h5> <br>
+                                    <a href="../pages/beard oil.html" class="btn btn-sm btn-outline-secondary"
+                                        role="button" aria-pressed="true">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em"
+                            id="productName"><strong><em> Loreal Men Expert Barber Club Long Beard & Skin
+                                    Oil</em></strong></text></svg> <br>
+
+                        <div class="card-body">
+                            <p class="card-text" id="productPrice">
+                                <details>
+                                    <summary>More details.</summary>
+                                    <p> - Stainless Steel Beard Shaping Tool</p>
+                                    <p>The Stainless Steel Beard Shaping Tool is a device that helps you shape your
+                                        beard by helping you get the perfect symmetry. <br> Price:R 199</p>
+                                </details>
+                                <strong style="font-size:25px;">R170</strong>
+                            </p>
+                            <!--</p>-->
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <!--Create a link button to the next page to view item-->
+                                    <a href="#" data-name="Grizzly Beard" data-price="199"
+                                        class="add-to-cart btn btn-primary">Add to
+                                        cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card ">
+                        <div class="flip-box">
+                            <div class="flip-box-inner">
+                                <div class="flip-box-front">
+                                    <img class="card-img-top" src="../images/beard balm.jpg"
+                                        style="width:300px;height:200px">
+                                </div>
+                                <div class="flip-box-back">
+                                    <h5>The Gentleman's Beard Club Balm - 50g
+                                    </h5> <br>
+                                    <a href="../pages/beard oil.html" class="btn btn-sm btn-outline-secondary"
+                                        role="button" aria-pressed="true">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em"
+                            id="productName"><strong><em> The Gentleman's Beard Club Balm -
+                                    50g</em></strong></text></svg> <br>
+
+                        <div class="card-body">
+                            <p class="card-text" id="productPrice">
+                                <details>
+                                    <summary>More details.</summary>
+                                    <p> - The Gentleman's Beard Club Balm</p>
+                                    <p>The Gentleman's Beard Balm is an all-natural leave in your beard balm that is
+                                        used to nourish and moisturize your beard.
+
+                                        The Beeswax assists with giving the balm a light hold to help you shape your
+                                        beard. The fresh wood scent would draw compliments from your better half and the
+                                        balm relieves dry, itchy skin, split ends, tangles and frizz while bringing out
+                                        your beard's natural thickness and luster. It is perfect for carrying in your
+                                        pocket, storing in your office that overlooks the city sky line, or your car.
+
+                                        Benefits:
+                                        - Nourishes and moisturizes your beard
+                                        - Helps you shape your beard
+                                        - Relieves dry, itchy skin, split ends, tangles and frizz
+                                        - Brings out your beard natural thickness and luster
+                                        - Pocket size, for carrying around. <br> Price: R 250</p>
+                                </details>
+                                <strong style="font-size:25px;">R250</strong>
+                            </p>
+                            <!--</p>-->
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <!--Create a link button to the next page to view item-->
+                                    <a href="#" data-name="Beard Club Balm" data-price="250"
+                                        class="add-to-cart btn btn-primary">Add to
+                                        cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="card ">
+                        <div class="flip-box">
+                            <div class="flip-box-inner">
+                                <div class="flip-box-front">
+                                    <img class="card-img-top" src="../images/brash.jpeg"
+                                        style="width:300px;height:200px">
+                                </div>
+                                <div class="flip-box-back">
+                                    <h5>Beard Straightening Comb</h5> <br>
+                                    <a href="../pages/beard oil.html" class="btn btn-sm btn-outline-secondary"
+                                        role="button" aria-pressed="true">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em"
+                            id="productName"><strong><em> Beard Straightening Comb</em></strong></text></svg> <br>
+
+                        <div class="card-body">
+                            <p class="card-text" id="productPrice">
+                                <details>
+                                    <summary>More details.</summary>
+                                    <p> - Beard Straightening Comb</p>
+                                    <p>The Beard Straightening Comb is the first ever men’s heated straightening brush,
+                                        designed exclusively to smooth out facial hair for an effortlessly soft finish.
+
+                                        Combining the functionality of a hairbrush with the power of heat, the Beard
+                                        Straightening Comb restores your beard to masculine, groomed perfection in just
+                                        30 seconds! Join thousands of others discovering Beard Straightening Comb and
+                                        find out how it’s taken their beard game to the next level! Beard Straightening
+                                        Comb is the ultimate advantage in a world of average beards! Using a low profile
+                                        design and negative ion technology, a thick out of control beard can be
+                                        transformed into a soft, smooth, and enviable look. Beard Straightening Comb
+                                        guarantees no damage to beard. This Comb uses negative ion technology to prevent
+                                        heat damage. You can use Beard Straightening Comb daily for a healthy and
+                                        polished beard look. Moreover, its heat barrier design will prevent heat damage
+                                        to your face.
+
+                                        Features:
+                                        - Length: 24.8 cm
+                                        - Cable Length: 170 cm
+                                        - Optimum Temperature: 120 degree
+                                        - Package Includes: 1 x Beard Straightening Comb <br> Price: R 399</p>
+                                </details>
+                                <strong style="font-size:25px;">R399</strong>
+
+                            </p>
+                            <!--</p>-->
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <!--Create a link button to the next page to view item-->
+                                    <a href="#" data-name="Banana" data-price="399"
+                                        class="add-to-cart btn btn-primary">Add to
+                                        cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="card ">
+                        <div class="flip-box">
+                            <div class="flip-box-inner">
+                                <div class="flip-box-front">
+                                    <img class="card-img-top" src="../images/beard soap.jpg"
+                                        style="width:300px;height:200px">
+                                </div>
+                                <div class="flip-box-back">
+                                    <h5>Beard Boys - Beard Soap Milk & Honey
+                                    </h5> <br>
+                                    <a href="../pages/beard oil.html" class="btn btn-sm btn-outline-secondary"
+                                        role="button" aria-pressed="true">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em"
+                            id="productName"><strong><em>Beard Boys - Beard Soap Milk & Honey</em></strong></text></svg>
+                        <br>
+
+                        <div class="card-body">
+                            <p class="card-text" id="productPrice">
+                                <details>
+                                    <summary>More details.</summary>
+                                    <p> - Beard Boys - Beard Soap Milk & Honey</p>
+                                    <p>Beard Boys Beard Soap is a blend of natural vegetable oils and essential oils.
+                                        Beard Boys Beard Soap is a unique blend of natural vegetable oils and essential
+                                        oils. It will create a rich creamy lather whilst stimulating hair follicles as
+                                        well as leaving your hair softer and thicker. The presence of pure honey
+                                        essential oils will leave distinctive scent. Our Beard soap is not only meant
+                                        for beards, it can be used all over the body and is safe for all skin types. Do
+                                        not forget to apply Beard oil after washing your beard. <br> Price: R 129</p>
+                                </details>
+                                <strong style="font-size:25px;">R129</strong>
+                            </p>
+                            <!--</p>-->
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <!--Create a link button to the next page to view item-->
+                                    <a href="#" data-name="Beard Soap" data-price="129"
+                                        class="add-to-cart btn btn-primary">Add to
+                                        cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="card ">
+                        <div class="flip-box">
+                            <div class="flip-box-inner">
+                                <div class="flip-box-front">
+                                    <img class="card-img-top" src="../images/beard wash.jpg"
+                                        style="width:300px;height:200px">
+                                </div>
+                                <div class="flip-box-back">
+                                    <h5>The Captain's Beard 200ml Beard Wash
+                                    </h5> <br>
+                                    <a href="../pages/beard oil.html" class="btn btn-sm btn-outline-secondary"
+                                        role="button" aria-pressed="true">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em"
+                            id="productName"><strong><em> The Captain's Beard 200ml Beard
+                                    Wash</em></strong></text></svg> <br>
+
+                        <div class="card-body">
+                            <p class="card-text" id="productPrice">
+                                <details>
+                                    <summary>More details.</summary>
+                                    <p> - The Captain's Beard 200ml Beard Wash</p>
+                                    <p>The Captain's Beard Beard Wash was from scratch specifically for beards, making
+                                        it the finest beard wash on the market
+
+                                        It has a very gentle wash that is mild enough for your face and tough enough to
+                                        clean even the roughest beard hairs
+                                        We recommend using this awesome wash once or twice a week to keep clean while
+                                        avoiding stripping the oil from the hair and skin
+                                        Follow this oil up with one of our beard oils for the softest, cleanest beard.
+                                        <br> Price: R 299</p>
+                                </details>
+                                <strong style="font-size:25px;">R299</strong>
+                            </p>
+                            <!--</p>-->
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <!--Create a link button to the next page to view item-->
+                                    <a href="#" data-name="Captain 200ml" data-price="299"
+                                        class="add-to-cart btn btn-primary">Add to
+                                        cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card ">
+                        <div class="flip-box">
+                            <div class="flip-box-inner">
+                                <div class="flip-box-front">
+                                    <img class="card-img-top" src="../images/beard softener.jpg"
+                                        style="width:300px;height:200px">
+                                </div>
+                                <div class="flip-box-back">
+                                    <h5>RESULTE Conditioning BEARD Softener</h5> <br>
+                                    <a href="../pages/beard oil.html" class="btn btn-sm btn-outline-secondary"
+                                        role="button" aria-pressed="true">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em"
+                            id="productName"><strong><em> RESULTE Conditioning BEARD Softener</em></strong></text></svg>
+                        <br>
+
+                        <div class="card-body">
+                            <p class="card-text" id="productPrice">
+                                <details>
+                                    <summary>More details.</summary>
+                                    <p> - RESULTE Conditioning BEARD Softener</p>
+                                    <p>125ml Resulté Beard Softener, also known as a ‘leave in conditioner, has been
+                                        designed from the ground up and contains a signature series of natural
+                                        ingredients from around the world to help you significantly soften your beard
+                                        follicles.
+                                        The Beard Softener works as a leave-in conditioner during the day and does not
+                                        need to be rinsed off after application.
+                                        Immediately notice your beard follicles soften and stop a common problem called
+                                        beard coarseness.
+
+                                        The Resulte Beard Softener not only conditions your beard, but also treats it
+                                        from the inside out.
+                                        Stimulating equals Fast Growth, Strength, and a Healthy Beard while fighting
+                                        against Itching, Dandruff, Irritations and Split Ends.
+                                        Giving you the result that you are looking for.
+
+                                        Features:
+                                        - Leave in conditioner
+                                        - Contains natural ingredients
+                                        - Contains follicles that help soften your beard
+                                        - Conditions hair
+                                        - Prevents coarseness
+                                        - Reduces irritation and itching. <br> Price: R 149 </p>
+                                </details>
+                                <strong style="font-size:25px;">R170</strong>
+                            </p>
+                            <!--</p>-->
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <!--Create a link button to the next page to view item-->
+                                    <a href="#" data-name="BEARD Softener" data-price="149"
+                                        class="add-to-cart btn btn-primary">Add to
+                                        cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <table class="show-cart table">
+                                <h3>cartArray[i].name</h3>
+                                <h2>Items In Your Cart.</h2>
+                            </table>
+                            <div>Total price: R<span class="total-cart"></span></div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <!--got to the checkout and delivery-->
+                            <a class="btn btn-primary" href="../pages/delivery & checkout.html">Order now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--This is the footer of the page-->
+            <footer class="text-muted">
+                <div class="container">
+                    <p class="float-right">
+                        <a href="#" class="top">Back to top</a>
+                    </p> <br>
+                    <p class="foot"> Bearded Gent.&nbsp;&nbsp; All Rights Reserved.&nbsp;&nbsp; Proudly created by
+                        <a href="#">Bearded Gent</a></p>
+                    <p class="foot">Last updated: 13 February 2020</p>
+
+                    <!--Closing division footer of the page-->
+                </div>
+
+                <!--Closing division of the container -->
+
+
+               <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                <!--Bootstrap files-->
+                <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+                    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+                    crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                    crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+                    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+                    crossorigin="anonymous"></script>
+                     <script src="../javascript/catalogue page final.js"></script>
+</body>
+
+</html>

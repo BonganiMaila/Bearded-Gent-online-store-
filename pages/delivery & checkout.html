@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Delivery & checkout</title>
+    <!--Link CSS with HTML-->
+    <link rel="stylesheet" type="text/css" href="../css/delivery & checkout.css">
+    <!--Linking Bootstrap with HTML-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--Load Javascript-->
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="../images/bearded logo.png" width="50" height="50" class="d-inline-block align-top"
+                alt="beard icon">
+            <em><strong>Bearded Gent</strong> </em>
+        </a>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" href="../index.html">Home</a>
+            </li>
+    <div class="dropdown" a class="nav-link">
+                <button class="dropbtn" a class="nav-link">Catalogue</button>
+                <div class="dropdown-content">
+                    <a class="nav-link" href="../pages/beard gallary.html">Beard Gallery</a>
+                    <a class="nav-link" href="../pages/catalogue page.html">Products</a>
+                    <a class="nav-link" href="../pages/terms.html">Terms & Conditions</a>
+                </div>
+            </div>
+            <li class="nav-item">
+                <a class="nav-link" href="../pages/about us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../pages/contact us.html">Contact Us</a>
+            </li>
+            </div>
+        </ul>
+    </nav>
+
+
+    <!--Make a catalogue with the products you are selling-->
+    <div class="sale">
+        <p>Free Shipping on ALL orders over R350 to anywhere in South Africa!
+
+        </p>
+    </div>
+
+
+    <div class="container-fluid">
+        <!--Our products header-->
+        <h3><strong>Delivery & Checkout.</strong></h3>
+
+        <div class="row">
+            <div class="col-75">
+                <div class="container">
+                    <form>
+
+                        <div class="row">
+                            <div class="col-50">
+                                <h3 id="head">Billing Address</h3>
+                                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                                <input type="text" id="fname" name="firstname" placeholder="Sam Davids" required>
+                                <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                                <input type="text" id="email" name="email" placeholder="sam@example.com" required>
+                                <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                                <input type="text" id="adr" name="address" placeholder="120 Church street" required>
+                                <label for="city"><i class="fa fa-institution"></i> City</label>
+                                <input type="text" id="city" name="city" placeholder="Pretoria" required>
+
+                                <div class="row">
+                                    <div class="col-50">
+                                        <label for="state">Province</label>
+                                        <input type="text" id="province" name="state" placeholder="Gauteng" required>
+                                    </div>
+                                    <div class="col-50">
+                                        <label for="zip">Zip</label>
+                                        <input type="text" id="zip" name="zip" placeholder="0001" required>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-50">
+                                <h3 id="head">Payment</h3>
+                                <label for="fname">Accepted Cards</label>
+                                <div class="icon-container">
+                                    <i class="fa fa-cc-visa" style="color:navy;"></i>
+                                    <i class="fa fa-cc-amex" style="color:blue;"></i>
+                                    <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                                    <i class="fa fa-cc-discover" style="color:orange;"></i>
+                                </div>
+                                <label for="cname">Name on Card</label>
+                                <input type="text" id="cname" name="cardname" placeholder="Sam Davids" required>
+                                <label for="ccnum">Credit card number</label>
+                                <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444"
+                                    required>
+                                <label for="expmonth">Exp Month</label>
+                                <input type="text" id="expmonth" name="expmonth" placeholder="September" required>
+
+                                <div class="row">
+                                    <div class="col-50">
+                                        <label for="expyear">Exp Year</label>
+                                        <input type="text" id="expyear" name="expyear" placeholder="2021" required>
+                                    </div>
+                                    <div class="col-50">
+                                        <label for="cvv">CVV</label>
+                                        <input type="text" id="cvv" name="cvv" placeholder="352" required>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div> <br>
+                        <h3 id="head">Delivery options</h3>
+                        <div class="form-group radioBtns">
+                            <div class="form-control">
+                                <input type="radio" name="preference" value="delivery" id="delivery" style = width: "100%">
+                                <label for="delivery">Delivery</label>
+                            </div>
+                            <div class="form-control">
+                                <input type="radio" name="preference" value="collection" id="collection">
+                                <label for="collection">Collection</label>
+                            </div>
+                        </div>
+
+                        <select name="deliveryOptions" id="deliverySelect" class="form-control select-box">
+                            <option value="0" selected disabled>--Please select a delivery service--</option>
+                            <option value="fastway">Fast Way</option>
+                            <option value="fedex"> FedEx</option>
+                            <option value="courierit">Courier It</option>
+                            <option value="postoffice">Post Office</option>
+                        </select>
+                        <label> <br>
+                            <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+                        </label>
+                        <input type="submit" value="Continue to checkout" class="btn" id="random"
+                            onclick="generateNumber()">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <!--This is the footer of the page-->
+        <footer class="text-muted">
+            <div class="container">
+                <p class="float-right">
+                    <a href="#" class="top">Back to top</a>
+                </p> <br>
+                <p class="foot"> Bearded Gent.&nbsp;&nbsp; All Rights Reserved.&nbsp;&nbsp; Proudly created by <a
+                        href="#">Bearded Gent</a></p>
+                <p class="foot">Last updated: 13 February 2020</p>
+
+                <!--Closing division footer of the page-->
+            </div>
+    </div>
+
+
+    <!--Load Javascript-->
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <!--Load Javascript-->
+    <script src="../javascript/delivery & checkout.js"></script>
+</body>
+
+</html>
