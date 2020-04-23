@@ -51,7 +51,7 @@ It provides an easy access for men to buy grooming products which can prove to b
 ![](C:\Users\BJMRO\Pictures\Screenshots/testimonial.jpg)
 
 ####About Us Page
-![](C:\Users\BJMRO\Pictures\Screenshots/about.jpg)
+![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/about%20us.png)
 
 ####Shopping Cart
 ![](C:\Users\BJMRO\Pictures\Screenshots/shopping.jpg)
