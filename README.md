@@ -41,35 +41,34 @@ It provides an easy access for men to buy grooming products which can prove to b
 ###Screenshots of the pages
 
 ####Index
-![](C:\Users\BJMRO\Pictures\Screenshots/index.jpg)
+![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/index.png)
 
 ####Catalogue Page
-![](C:\Users\BJMRO\Pictures\Screenshots/catalogue.jpg)
+![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/catalogue.png)
 
 ####Testimonial Page
 
-![](C:\Users\BJMRO\Pictures\Screenshots/testimonial.jpg)
+![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/testimonial.png)
 
 ####About Us Page
 ![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/about%20us.png)
 
 ####Shopping Cart
-![](C:\Users\BJMRO\Pictures\Screenshots/shopping.jpg)
+![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/about.png)
 
 ####Orders and Delivery
-![](C:\Users\BJMRO\Pictures\Screenshots/checkout.jpg)
+![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/checkout.png)
 
 ####Contact
-![](C:\Users\BJMRO\Pictures\Screenshots/contact.jpg)
+![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/contact.png)
 
 ####Terms
-![](C:\Users\BJMRO\Pictures\Screenshots/terms.jpg)
+![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/terms.png)
 
 ####Disclaimer
-![](C:\Users\BJMRO\Pictures\Screenshots/disclaimer.jpg)
+![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/disclaimer.png)
 
-####Testimonial
-![](C:\Users\BJMRO\Pictures\Screenshots/testimonial.jpg)
+
 
 ##Contributors
 
