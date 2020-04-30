@@ -1,10 +1,10 @@
-#Bearded Gent online store
+# Bearded Gent online store
 
 This project is an online shopping store that sells beard grooming products for men. 
 
 It provides an easy access for men to buy grooming products which can prove to be a hassle than going around at a physical score. With Bearded Gent all grooming products are put in one place. At a reasonable price. 
 
-##Table of Contents
+## Table of Contents
 
 - index page
 - category page
@@ -18,11 +18,11 @@ It provides an easy access for men to buy grooming products which can prove to b
 
 
 
-##Technologies Used
+## Technologies Used
 
-###Technologies and Tools Used:
+## Technologies and Tools Used:
 
-###Languages:
+## Languages:
 
 - HTML
 - CSS
@@ -31,44 +31,44 @@ It provides an easy access for men to buy grooming products which can prove to b
 
 
 
-###Tools
+### Tools
 
 - Google Chrome
 - Github
 
 
-##Screenshots
-###Screenshots of the pages
+## Screenshots
+## Screenshots of the pages
 
-####Index
+### Index
 ![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/index.png)
 
-####Catalogue Page
+### Catalogue Page
 ![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/catalogue.png)
 
-####Shopping Cart
+### Shopping Cart
 ![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/shopping.png)
 
-####Testimonial Page
+### Testimonial Page
 ![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/testimonial.png)
 
-####About Us Page
+### About Us Page
 ![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/about%20us.png)
 
-####Orders and Delivery
+### Orders and Delivery
 ![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/checkout.png)
 
-####Contact
+### Contact
 ![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/contact.png)
 
-####Terms
+### Terms
 ![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/terms.png)
 
-####Disclaimer
+### Disclaimer
 ![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/disclaimer.png)
 
 
 
-##Contributors
+## Contributors
 
-Bongani Maila - 2020
+### Bongani Maila - 2020
