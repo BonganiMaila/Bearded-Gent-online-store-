@@ -6,15 +6,15 @@ It provides an easy access for men to buy grooming products which can prove to b
 
 ## Table of Contents
 
-- index page
-- category page
-- about page
-- contact us
-- disclaimer page
-- terms page
-- testimonial page
-- shopping cart
-- delivery and checkout page
+- Index page
+- Category page
+- About page
+- Contact us
+- Disclaimer page
+- Terms page
+- Testimonial page
+- Shopping cart
+- Delivery and checkout page
 
 
 
