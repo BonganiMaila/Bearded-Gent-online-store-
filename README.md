@@ -67,7 +67,8 @@ It provides an easy access for men to buy grooming products which at times can p
 ### Disclaimer
 ![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/disclaimer.png)
 
-
+## Link
+https://admiring-kirch-1b87a2.netlify.app/
 
 ## Contributors
 
